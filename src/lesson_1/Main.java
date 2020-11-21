@@ -29,10 +29,7 @@ public class Main {
     }
 
     public static boolean task_4(int a, int b){
-        if ((a + b) <= 20 & (a + b) >= 10){
-            return true;
-        }
-        return false;
+        return ((a + b) <= 20 & (a + b) >= 10);
     }
 
     public static String task_5(int a){
@@ -43,10 +40,7 @@ public class Main {
     }
 
     public static boolean task_6(int a){
-        if (a < 0){
-            return true;
-        }
-        return false;
+        return a < 0;
     }
 
     public static String task_7(String name){
@@ -54,7 +48,6 @@ public class Main {
     }
 
     public static String task_8(int a){
-        a = a;
         if (a % 4 == 0 & a % 100 != 0){
             return "Год високосный";
         }

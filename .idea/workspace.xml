@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b35061aa-6245-4d5c-854f-4d05e5f81bc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b35061aa-6245-4d5c-854f-4d05e5f81bc8" name="Default Changelist" comment="Убрал лишнюю переменную">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GB_Java_1/lesson_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GB_Java_1/lesson_1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,24 +96,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Убрал лишнюю переменную" />
+    <option name="LAST_COMMIT_MESSAGE" value="Убрал лишнюю переменную" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2378" height="376" key="GridCell.Tab.0.bottom" timestamp="1605899947252">
+    <state width="2378" height="376" key="GridCell.Tab.0.bottom" timestamp="1605969509690">
       <screen x="0" y="0" width="2446" height="1440" />
     </state>
-    <state width="2378" height="376" key="GridCell.Tab.0.bottom/0.0.2446.1440/-1920.232.1920.1080@0.0.2446.1440" timestamp="1605899947252" />
-    <state width="2378" height="376" key="GridCell.Tab.0.center" timestamp="1605899947251">
+    <state width="2378" height="376" key="GridCell.Tab.0.bottom/0.0.2446.1440/-1920.232.1920.1080@0.0.2446.1440" timestamp="1605969509690" />
+    <state width="2378" height="376" key="GridCell.Tab.0.center" timestamp="1605969509689">
       <screen x="0" y="0" width="2446" height="1440" />
     </state>
-    <state width="2378" height="376" key="GridCell.Tab.0.center/0.0.2446.1440/-1920.232.1920.1080@0.0.2446.1440" timestamp="1605899947251" />
-    <state width="2378" height="376" key="GridCell.Tab.0.left" timestamp="1605899947251">
+    <state width="2378" height="376" key="GridCell.Tab.0.center/0.0.2446.1440/-1920.232.1920.1080@0.0.2446.1440" timestamp="1605969509689" />
+    <state width="2378" height="376" key="GridCell.Tab.0.left" timestamp="1605969509689">
       <screen x="0" y="0" width="2446" height="1440" />
     </state>
-    <state width="2378" height="376" key="GridCell.Tab.0.left/0.0.2446.1440/-1920.232.1920.1080@0.0.2446.1440" timestamp="1605899947251" />
-    <state width="2378" height="376" key="GridCell.Tab.0.right" timestamp="1605899947251">
+    <state width="2378" height="376" key="GridCell.Tab.0.left/0.0.2446.1440/-1920.232.1920.1080@0.0.2446.1440" timestamp="1605969509689" />
+    <state width="2378" height="376" key="GridCell.Tab.0.right" timestamp="1605969509689">
       <screen x="0" y="0" width="2446" height="1440" />
     </state>
-    <state width="2378" height="376" key="GridCell.Tab.0.right/0.0.2446.1440/-1920.232.1920.1080@0.0.2446.1440" timestamp="1605899947251" />
+    <state width="2378" height="376" key="GridCell.Tab.0.right/0.0.2446.1440/-1920.232.1920.1080@0.0.2446.1440" timestamp="1605969509689" />
     <state x="594" y="333" key="IDE.errors.dialog" timestamp="1605895861491">
       <screen x="0" y="0" width="2446" height="1440" />
     </state>
