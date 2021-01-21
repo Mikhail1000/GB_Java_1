@@ -1,7 +1,9 @@
 package Java_2.lesson_5;
 
+import java.util.Arrays;
+
 public class Main {
-    static final int SIZE = 10000000;
+    static final int SIZE = 1000000;
     static final int h = SIZE /2;
 
     public static void main(String[] args) {
@@ -21,7 +23,7 @@ public class Main {
         long a = System.currentTimeMillis();
 
         for (int i = 0; i < SIZE; i++) {
-            array[i] = (float) (array[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
+            array[i] = (float) (array[i] * Math.sin(0.2f + (i + 0) / 5) * Math.cos(0.2f + (i + 0) / 5) * Math.cos(0.4f + (i + 0) / 2));
         }
         System.out.print("В однопоточном режиме: ");
         System.out.println(System.currentTimeMillis() - a);
@@ -35,11 +37,12 @@ public class Main {
         System.arraycopy(array, 0, arr1, 0, h);
         System.arraycopy(array, h, arr2, 0, h);
 
-        Thread t1 = new Thread(new MyThread(arr1));
-        Thread t2 = new Thread(new MyThread(arr2));
+        Thread t1 = new Thread(new MyThread(arr1, 0));
+        Thread t2 = new Thread(new MyThread(arr2, h));
         t1.start();
         t2.start();
         try {
+            t1.join();
             t2.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -49,6 +52,5 @@ public class Main {
 
         System.out.print("В двухпоточном режиме: ");
         System.out.println(System.currentTimeMillis() - b);
-
     }
 }
