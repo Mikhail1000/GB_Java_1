@@ -5,7 +5,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         //Замена элементов массива
-        String arr[] = {
+        String[] arr = {
             "first", "second", "third"
         };
         arr =  changeItemsArray(arr, 0, 2);
