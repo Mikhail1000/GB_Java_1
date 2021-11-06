@@ -1,18 +1,18 @@
-package lesson_7;
+package Java_1.lesson_7;
 
-public class Cats {
+public class Cat {
 
     private String name;
     protected int appetite;
     protected boolean satiety;
 
-    public Cats(String name, int appetite) {
+    public Cat(String name, int appetite) {
         this.name = name;
         this.appetite = appetite;
         this.satiety = false;
     }
 
-    public void eat(Plates plate) {
+    public void eat(Plate plate) {
         satiety = plate.decreaseFood(this.appetite);
         if (satiety){
             System.out.println("Кот " + this.name + " поел и сыт.");

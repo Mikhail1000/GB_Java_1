@@ -1,6 +1,6 @@
-package lesson_7;
+package Java_1.lesson_7;
 
-public class Plates {
+public class Plate {
     private int food;
 
     public void addFood(int food) {
